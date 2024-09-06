@@ -6,8 +6,7 @@ function Howtoreach() {
   return (
     <div>
       <div className="container">
-        <div className="titleStyle1">HOW TO</div>
-        <div className="titleStyle2">REACH?</div>
+        <div className="titleStyle1">HOW TO REACH?</div>
 
         <div class="divider" style={{ marginBottom: "30px" }}></div>
         <BTable striped bordered hover responsive>
