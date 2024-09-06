@@ -69,8 +69,7 @@ const WebsiteTeam = [
 function OrgCommittee() {
   return (
     <section style={{ textAlign: "start" }}>
-      <div class="titleStyle1">Organizing</div>
-      <div class="titleStyle2">Committee</div>
+      <div class="titleStyle1">Organizing Committee</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       <h2 class="heading-secondary my-4">Convenor</h2>
       <div class="row px-3">{CommitteeMember.getCards(OrganizingChair)}</div>

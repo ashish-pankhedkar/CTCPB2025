@@ -12,6 +12,10 @@ export const JSONData = [
    "LastName": "Banerjee",
   },
   {
+    "FirstName": "Prof. Dibakar",
+    "LastName": "Chakrabarty",
+  },
+  {
    "FirstName": "Prof. Indrani",
    "LastName": " Talukadar",
   },
@@ -32,6 +36,18 @@ export const JSONData = [
    "LastName": "Mehrotra",
   },
   {
+   "FirstName": "Prof. Raviprasad",
+   "LastName": "Aduri",
+  },
+  {
+   "FirstName": "Prof. Srikanth",
+   "LastName": "Mutnuri",
+  },
+  {
+   "FirstName": "Prof. Sumit",
+   "LastName": "Biswas",
+  },
+  {
    "FirstName": "Prof. Samit",
    "LastName": "Chattopadhyay",
   },
@@ -50,22 +66,6 @@ export const JSONData = [
    {
     "FirstName": "Prof. Tusar Tirtha",
     "LastName": "Saha",
-   },
-   {
-    "FirstName": "Prof. Dibakar",
-    "LastName": "Chakrabarty",
-   },
-   {
-    "FirstName": "Prof. Raviprasad",
-    "LastName": "Aduri",
-   },
-   {
-    "FirstName": "Prof. Srikanth",
-    "LastName": "Mutnuri",
-   },
-   {
-    "FirstName": "Prof. Sumit",
-    "LastName": "Biswas",
    },
    {
     "FirstName": "Prof. Veeky",
