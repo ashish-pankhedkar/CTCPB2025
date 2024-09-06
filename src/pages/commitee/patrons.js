@@ -58,8 +58,7 @@ const ChiefPatron = [
 function Patrons() {
   return (
     <div style={{ textAlign: "start" }}>
-      <div class="titleStyle1">Our</div>
-      <div class="titleStyle2">Committee</div>
+      <div class="titleStyle1">Commitee Members</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       <h2 class="heading-secondary my-4">Chief Patron</h2>
       <div class="row px-3">{CommitteeMember.getCards(ChiefPatron)}</div>
