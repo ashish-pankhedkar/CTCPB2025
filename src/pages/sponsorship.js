@@ -8,7 +8,7 @@ const sponsorship = () => {
     <div>
       <div className="container">
         <div className="titleStyle1">Sponsorship</div>
-        <div className="titleStyle2">opportunities</div>
+        <div className="titleStyle1">opportunities</div>
         <div class="divider" style={{ marginBottom: "30px" }}></div>
               <p class="" style={{ fontWeight: "400", textAlign: "justify" }}>
                 {" "}
