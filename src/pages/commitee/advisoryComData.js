@@ -17,7 +17,7 @@ export const JSONData = [
   },
   {
    "FirstName": "Prof. Deepak",
-   "LastName": "Pental, DU",
+   "LastName": "Pental, DU SC",
   },
   {
    "FirstName": "Prof. M.K.",
@@ -25,7 +25,7 @@ export const JSONData = [
   },
   {
    "FirstName": "Prof. Manoj",
-   "LastName": "Prasad, DU",
+   "LastName": "Prasad, DU SC",
   },
   {
    "FirstName": "Prof. Om Prakash",
@@ -41,7 +41,7 @@ export const JSONData = [
   },
   {
    "FirstName": "Prof. Paramjit",
-   "LastName": "Khurana, DU",
+   "LastName": "Khurana, DU SC",
   },
   {
     "FirstName": "Dr. Prabodh",
