@@ -27,8 +27,7 @@ function Contact() {
             <div class="col-lg-6 col-md-12" style={{minHeight: "400px"}}>
                 <div class="">
                     <div class="contact-content" style={{textAlign: 'start'}}>
-                        <div className="titleStyle1"> Contact </div>
-                        <div className="titleStyle2"> Information </div>
+                        <div className="titleStyle1"> Contact Information </div>
                         <div class="divider" style={{marginBottom: '20px'}}></div>
                         <strong style={{fontSize: '140%'}}>Birla Institute of Technology &amp; Science</strong>
                         <p class="address" style={{fontWeight: '400'}}>

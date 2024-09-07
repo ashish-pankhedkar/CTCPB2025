@@ -25,7 +25,6 @@ function CTCPB() {
               <ListGroup variant="flush">
                 <ListGroup.Item>Plant Tissue Culture</ListGroup.Item>
                 <ListGroup.Item>Plant Genome and Editing</ListGroup.Item>
-                <ListGroup.Item>Plant Systems Biology</ListGroup.Item>
                 <ListGroup.Item>Plant Development </ListGroup.Item>
                 <ListGroup.Item>Abiotic Stress Biology</ListGroup.Item>
                 <ListGroup.Item>Plant Microbe Interaction</ListGroup.Item>

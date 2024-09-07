@@ -17,10 +17,9 @@ function RegistrationNew() {
               <p style={{ textAlign: "justify" }}>
               
                 <ul>
-                  <li>Registration includes all meals and refreshment breaks for the duration of the conference.</li>
-                  <li>Registration may be closed early due to limited space.</li>
-                  <li>To register for the Conference at the reduced Student Rate, you must have a valid student ID.</li>
-                  <li>To register for the Conference as a PTCAI member, you must have a valid membership ID.</li>
+                  <li>Registration includes all meals and refreshment breaks for the duration of the conference</li>
+                  <li>To register for the Conference at the reduced Student Rate, you must have a valid student ID</li>
+                  <li>To register for the Conference as a PTCAI member, you must be a PTCAI member</li>
                 </ul>
               </p>
             </div>           
@@ -30,11 +29,11 @@ function RegistrationNew() {
             <><br /></>
             <div>
               <p style={{ textAlign: "justify" }}>
-                Title, followed by the name of the Author(s). Presenter's name(s) to be underlined.<br />
-                Body of the abstract must not be exceeding 500 words.<br />
+                Title, followed by the name of the Author(s). Presenter's name(s) to be underlined<br />
+                Body of the abstract must not be exceeding 300 words<br />
                 Font: Times New Roman<br />
-                Font size 12.<br />
-                Figures and references should not be included in the abstract.
+                Font size 12<br />
+                Figures and references should not be included in the abstract
               </p>
             </div>           
 
@@ -121,9 +120,9 @@ function RegistrationNew() {
               </table>
             </div>
 
-            <p style={{ textAlign: "justify" }}>
+            {/* <p style={{ textAlign: "justify" }}>
               <strong>Note:</strong> Note about registration fees and what it includes.
-            </p>
+            </p> */}
            
           </div>
 

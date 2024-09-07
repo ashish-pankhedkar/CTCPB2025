@@ -33,7 +33,7 @@ function PastEditions() {
       }
     >
       <div className="titleStyle1">Previous</div>
-      <div className="titleStyle2">Conferences</div>
+      <div className="titleStyle1">Conferences</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       <div
         style={{

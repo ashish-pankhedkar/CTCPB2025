@@ -210,7 +210,6 @@ function Home() {
                     {" "}
                     • Plant Genome and Editing •{" "}
                   </ListGroup.Item>
-                  <ListGroup.Item> • Plant Systems Biology • </ListGroup.Item>
                   <ListGroup.Item> • Plant Development • </ListGroup.Item>
                   <ListGroup.Item> • Abiotic Stress Biology • </ListGroup.Item>
                   <ListGroup.Item>

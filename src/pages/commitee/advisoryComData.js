@@ -1,7 +1,7 @@
 export const JSONData = [
   {
-   "FirstName": "Prof. A.K. ",
-   "LastName": " Tyagi, DU",
+   "FirstName": "Prof. A. K. ",
+   "LastName": " Tyagi, DU SC",
   },
   {
    "FirstName": "Dr. Ajit Kumar",
@@ -17,7 +17,7 @@ export const JSONData = [
   },
   {
    "FirstName": "Prof. Deepak",
-   "LastName": "Pental, DU",
+   "LastName": "Pental, DU SC",
   },
   {
    "FirstName": "Prof. M.K.",
@@ -25,15 +25,15 @@ export const JSONData = [
   },
   {
    "FirstName": "Prof. Manoj",
-   "LastName": "Prasad, DU",
+   "LastName": "Prasad, DU SC",
   },
   {
    "FirstName": "Prof. Om Prakash",
-   "LastName": "Dhankher, UMASS",
+   "LastName": "Dhankher, UMASS Amherst",
   },
   {
    "FirstName": "Dr. P.",
-   "LastName": "Suprasanna, AMITY",
+   "LastName": "Suprasanna, AMITY Mumbai",
   },
   {
    "FirstName": "Prof. Padmanabh",
@@ -41,7 +41,7 @@ export const JSONData = [
   },
   {
    "FirstName": "Prof. Paramjit",
-   "LastName": "Khurana, DU",
+   "LastName": "Khurana, DU SC",
   },
   {
     "FirstName": "Dr. Prabodh",
@@ -77,7 +77,7 @@ export const JSONData = [
    },
    {
     "FirstName": "Dr. Sharmila",
-    "LastName": "Chattopadhyay, IICB",
+    "LastName": "Chattopadhyay, CSIR-IICB",
    },
    {
     "FirstName": "Prof. Sneh Lata",
