@@ -11,10 +11,8 @@ function Speakers() {
         marginBottom: "50px",
       }}
     >
-      <div className="titleStyle1">Our</div>
-      <div className="titleStyle2">Speakers</div>
+      <div className="titleStyle1">Invited Speakers</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
-      <h2 class="heading-secondary">Invited Speakers</h2> 
       <div
         className="flex speakers-grid"
         style={{

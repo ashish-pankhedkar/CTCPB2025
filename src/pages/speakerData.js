@@ -34,11 +34,7 @@ function SpeakerLink({ link }) {
 
 class SpeakerHelper {
   constructor(
-    speakerName,
-    speakerImage,
-    speakerText,
-    speakerLink,
-    speakerLinkStyle
+    speakerName, speakerImage, speakerText, speakerLink, speakerLinkStyle
   ) {
     this.speakerName = speakerName;
     this.speakerImage = speakerImage;
@@ -144,7 +140,7 @@ const invitedSpeakers = [
         Bangalore
       </div>
     ),
-    "https://www.ncbs.res.in/research/dr_aredkar.php"
+    "https://www.ncbs.res.in/faculty/aredkar"
   ),
 
   new SpeakerHelper(
@@ -196,7 +192,7 @@ const invitedSpeakers = [
         New Delhi
       </div>
     ),
-    "https://naas.org.in/research/prof_kcbansal.php"
+    "https://naas.org.in/detail.php?id=48"
   ),
 
   new SpeakerHelper(
@@ -248,7 +244,7 @@ const invitedSpeakers = [
         JNU, New Delhi
       </div>
     ),
-    "https://www.jnu.ac.in/content/praveenkvermahttps://www.jnu.ac.in/content/praveenkvermahttps://www.jnu.ac.in/content/praveenkvermahttps://www.jnu.ac.in/content/praveenkverma"
+    "https://www.jnu.ac.in/content/praveenkverma"
   ),
  
   new SpeakerHelper(
@@ -265,7 +261,7 @@ const invitedSpeakers = [
   ),
  
   new SpeakerHelper(
-    "Dr. Satendra Kumar Mangurathia",
+    "Dr. Satendra Kumar Mangrauthia",
     skm,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
