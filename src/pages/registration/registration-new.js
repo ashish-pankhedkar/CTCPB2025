@@ -114,9 +114,9 @@ function RegistrationNew() {
                     <td align="center">Rs. 15,000</td>
                   </tr>
                   <tr>
-                    <td colSpan="3">
+                    {/* <td colSpan="3">
                     <a href="https://forms.gle/ToA2DvdVHaq4w3Et6"> Link for Registration </a>
-                    </td>
+                    </td> */}
                   </tr>
                 </tbody>
               </table>
@@ -126,6 +126,9 @@ function RegistrationNew() {
               <strong>Note:</strong> Note about registration fees and what it includes.
             </p> */}
            
+            <a class="black-button" href="https://forms.gle/ToA2DvdVHaq4w3Et6" target="_blank" rel="noopener noreferrer">
+                click here to register
+            </a>
           </div>
 
           {/* {ExcuseCard(Excuses.TBU)} */}
