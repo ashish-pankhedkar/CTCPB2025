@@ -17,7 +17,7 @@ import skm from "../images/speakers/skm.jpg";
 import sks from "../images/speakers/sks.jpg";
 import slsp from "../images/speakers/slsp.jpg";
 import ssb from "../images/speakers/ssb.ashx";
-import un from "../images/speakers/un.jpg";
+import pd from "../images/speakers/pd.jpg";
 
 function SpeakerLink({ link }) {
   return (
@@ -222,6 +222,19 @@ const invitedSpeakers = [
   ),
  
   new SpeakerHelper(
+    "Prof. Padmanabh Dwivedi",
+    pd,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        IISc
+        <br />
+        Bangalore
+      </div>
+    ),
+    "https://bhu.ac.in/Content/FacultyCV/pdwivedi25@rediffmail.com.pdf"
+  ),
+
+  new SpeakerHelper(
     "Dr. Pradeep K. Agarwal",
     pka,
     (
@@ -338,18 +351,7 @@ const invitedSpeakers = [
     "https://www.cimap.res.in/EmployeeProfile/EmployeeProfile.aspx?id=661"
   ),
  
-  new SpeakerHelper(
-    "Prof. Utpal Nath",
-    un,
-    (
-      <div className="speakerText" style={{ marginTop: "25px" }}>
-        IISc
-        <br />
-        Bangalore
-      </div>
-    ),
-    "https://iiscprofiles.irins.org/profile/54466"
-  )
+  
 ];
 
 

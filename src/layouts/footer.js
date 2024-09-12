@@ -53,9 +53,9 @@ function MyFooter() {
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             &nbsp; +91-832-2580196</a>
                         </p>
-                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:kundan@goa.bits-pilani.ac.in" class="text-white">
+                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:ctcpb2025@gmail.com" class="text-white">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                            &nbsp; kundan@goa.bits-pilani.ac.in</a>
+                            &nbsp; ctcpb2025@gmail.com</a>
                         </p>                    
                     </div>
                     <div class="col-md-4 col-sm-12 justify-content-center align-middle">

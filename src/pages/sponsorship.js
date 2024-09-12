@@ -26,34 +26,35 @@ const sponsorship = () => {
           <tbody style={{ alignItems: "center", justifyContent: "center" }}>
             <tr>
               <td style = {{backgroundColor: "#ffcccc", fontWeight: "bold"}}>Platinum</td>
+              <td>2,00,000</td>
+              <td style = {{textAlign: "justify"}}>Name/logo at prominent places including
+dias/website; Presentation opportunity; Full page advertisement in the abstract book; Area for exhibition stall; Two complementary event registration.
+</td>
+            </tr>
+            <tr>
+              <td style = {{backgroundColor: "#ccfff8", fontWeight: "bold"}}>Diamond</td>
               <td>1,00,000</td>
               <td style = {{textAlign: "justify"}}>Name/logo at prominent places including
-dias/website; Presentation opportunity;
-Advertisement in souvenir.
-(full colour back cover page)</td>
+dias/website; Full page advertisement in the abstract book; Area for exhibition stall; One complementary event registration.</td>
             </tr>
+
             <tr>
               <td style = {{backgroundColor: "#ffffcc", fontWeight: "bold"}}>Gold</td>
               <td>50,000</td>
               <td style = {{textAlign: "justify"}}>Name/logo at prominent places including
-dias/website; Advertisement in souvenir.
-(full page colour)</td>
+dias/website; Half page advertisement in the abstract book.</td>
             </tr>
+
 
             <tr>
               <td style = {{backgroundColor: "#e0e0e0", fontWeight: "bold"}}>Silver</td>
               <td>25,000</td>
-              <td style = {{textAlign: "justify"}}>Name/logo on website; Advertisement in
-souvenir.
-(full page colour)</td>
+              <td style = {{textAlign: "justify"}}>Name/logo on website; Half page advertisement in the abstract book.</td>
             </tr>
             
           </tbody>
         </BTable>
-        <p>
-          <b>Note:</b> Note for sponsors.
-        </p>
-      </div>
+        </div>
     </div>
   )
 }
