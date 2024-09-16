@@ -309,11 +309,13 @@ function Home() {
                 {" "}
                 {homepg_text2}{" "}
               </p>
-              <div class="d-flex" style={{ textAlign: "start" }}>
-                <Link to="/about/ctcp/" class="black-button">
-                  VIEW MORE
-                </Link>
-              </div>
+              {/* 
+                <div class="d-flex" style={{ textAlign: "start" }}>
+                  <Link to="/about/ctcp/" class="black-button">
+                    VIEW MORE
+                  </Link>
+                </div> 
+              */}
             </div>
           </div>
         </div>
