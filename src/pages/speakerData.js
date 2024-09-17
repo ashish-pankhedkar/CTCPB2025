@@ -16,7 +16,7 @@ import sg from "../images/speakers/sg.jpg";
 import skm from "../images/speakers/skm.jpg";
 import sks from "../images/speakers/sks.jpg";
 import slsp from "../images/speakers/slsp.jpg";
-import ssb from "../images/speakers/ssb.ashx";
+import ssb from "../images/speakers/ssb.jpg";
 import pd from "../images/speakers/pd.jpg";
 
 function SpeakerLink({ link }) {
