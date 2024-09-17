@@ -25,15 +25,17 @@ function RegistrationNew() {
             </div>           
 
             <div class="divider" style={{ marginBottom: "30px" }}></div>
-            <div className="titleStyle2">Format </div>
+            <div className="titleStyle2">Abstract Format </div>
             <><br /></>
             <div>
               <p style={{ textAlign: "justify" }}>
-                Title, followed by the name of the Author(s). Presenter's name(s) to be underlined<br />
-                Body of the abstract must not be exceeding 300 words<br />
-                Font: Times New Roman<br />
-                Font size 12<br />
-                Figures and references should not be included in the abstract
+                <ul>
+                  <li>Title, followed by the name, affiliation and e-mail of the corresponding Author(s). Presenter's name(s) to be underlined</li>
+                  <li>Body of the abstract must not be exceeding 300 words</li>
+                  <li> Font: Times New Roman</li>
+                  <li>Font Size: 12</li>
+                  <li>Figures and references should not be included in the abstract</li>
+                </ul>
               </p>
             </div>           
 
@@ -112,9 +114,9 @@ function RegistrationNew() {
                     <td align="center">Rs. 15,000</td>
                   </tr>
                   <tr>
-                    <td colSpan="3">
+                    {/* <td colSpan="3">
                     <a href="https://forms.gle/ToA2DvdVHaq4w3Et6"> Link for Registration </a>
-                    </td>
+                    </td> */}
                   </tr>
                 </tbody>
               </table>
@@ -124,6 +126,9 @@ function RegistrationNew() {
               <strong>Note:</strong> Note about registration fees and what it includes.
             </p> */}
            
+            <a class="black-button" href="https://forms.gle/ToA2DvdVHaq4w3Et6" target="_blank" rel="noopener noreferrer">
+                click here to register
+            </a>
           </div>
 
           {/* {ExcuseCard(Excuses.TBU)} */}

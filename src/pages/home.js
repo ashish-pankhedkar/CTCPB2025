@@ -57,7 +57,7 @@ function Home() {
                       padding: "20px",
                     }}
                   >
-                    Annual Meeting of Plant Tissue Culture Association India.
+                    Annual Meeting of Plant Tissue Culture Association India
                   </h1>
                 </div>
               </div>
@@ -70,19 +70,18 @@ function Home() {
                     fontSize: "2rem",
                   }}
                 >
-                  Symposium on current trends and challenges in Plant Bio
-                  Technology - 2025.
+                  Symposium on Current Trends and Challenges in Plant Biotechnology - 2025
                 </h1>
               </div>
               <div class="d-flex-inline" style={{ textAlign: "start" }}>
-                <a
+                {/* <a
                   download
                   href="documents/CTCPB_2025.pdf"
                   class="black-button m-1"
                 >
                   {" "}
                   Schedule <i class="fa fa-download" aria-hidden="true"></i>
-                </a>
+                </a> */}
                 <a
                   download
                   href="documents/CTCPB_2025.pdf"
@@ -205,7 +204,7 @@ function Home() {
                 }}
               >
                 <ListGroup variant="flush">
-                  <ListGroup.Item> • Plant Tissue Culture • </ListGroup.Item>
+                  <ListGroup.Item> • Plant Tissue Culture and Enterpreneurship • </ListGroup.Item>
                   <ListGroup.Item>
                     {" "}
                     • Plant Genome and Editing •{" "}
@@ -310,11 +309,13 @@ function Home() {
                 {" "}
                 {homepg_text2}{" "}
               </p>
-              <div class="d-flex" style={{ textAlign: "start" }}>
-                <Link to="/about/ctcp/" class="black-button">
-                  VIEW MORE
-                </Link>
-              </div>
+              {/* 
+                <div class="d-flex" style={{ textAlign: "start" }}>
+                  <Link to="/about/ctcp/" class="black-button">
+                    VIEW MORE
+                  </Link>
+                </div> 
+              */}
             </div>
           </div>
         </div>
