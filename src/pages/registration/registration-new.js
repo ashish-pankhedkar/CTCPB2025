@@ -20,6 +20,7 @@ function RegistrationNew() {
                   <li>Registration includes all meals and refreshment breaks for the duration of the conference</li>
                   <li>To register for the Conference at the reduced Student Rate, you must have a valid student ID</li>
                   <li>To register for the Conference as a PTCAI member, you must be a PTCAI member</li>
+                  <li>Registration may close early if the number of participants exceeds our expected capacity.</li>
                 </ul>
               </p>
             </div>           
@@ -79,7 +80,7 @@ function RegistrationNew() {
                       <b>
                         From 1<sup>st</sup> Nov 2024
                         <br />
-                        to 15<sup>th</sup> Dec 2024 
+                        to 30<sup>th</sup> Nov 2024 
                       </b>
                     </td>
                     
