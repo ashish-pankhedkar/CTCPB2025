@@ -204,7 +204,7 @@ function Home() {
                 }}
               >
                 <ListGroup variant="flush">
-                  <ListGroup.Item> • Plant Tissue Culture and Enterpreneurship • </ListGroup.Item>
+                  <ListGroup.Item> • Plant Tissue Culture and Entrepreneurship • </ListGroup.Item>
                   <ListGroup.Item>
                     {" "}
                     • Plant Genome and Editing •{" "}

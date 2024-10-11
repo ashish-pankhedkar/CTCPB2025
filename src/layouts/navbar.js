@@ -50,12 +50,14 @@ function MyNavbar() {
 				<a class="navbar-brand my-2" href="/">
 					<img src={ptcaiLogo} height="90" class="align-top p-1" alt="ptcailogo" />
 				</a>
-				
+				{/* <a class="navbar-brand my-2" href="/">
+					<img src={ptcaiLogo} height="90" class="align-top p-1" alt="ptcailogo" />
+				</a> */}
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-					<div class='collapse navbar-collapse in justify-content-end' id="navbarSupportedContent">
+				<div class='collapse navbar-collapse in justify-content-end' id="navbarSupportedContent">
 					<ul class="navbar-nav d-flex flex-wrap main-nav-list justify-content-end borderXwidth">
 						<NavWithoutDropDown link={"/"} showname={"Home"} />
 				
@@ -84,7 +86,9 @@ function MyNavbar() {
 				
 						<NavWithoutDropDown link={"/contact"} showname={"Contact Us"}  />
 					</ul>
-				</div>				
+				</div>	
+					
+					
 			</div>
 		</nav>
     </div>
