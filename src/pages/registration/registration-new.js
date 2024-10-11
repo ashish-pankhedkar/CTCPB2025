@@ -9,7 +9,7 @@ function RegistrationNew() {
         <div class="container">
  
           <div class="section-header">
-            <div className="titleStyle1">Conference Registration</div>
+            <div className="titleStyle1">Symposium Registration</div>
             <div class="divider" style={{ marginBottom: "30px" }}></div>
             <div className="titleStyle2">Details </div>
             <><br /></>
@@ -17,9 +17,9 @@ function RegistrationNew() {
               <p style={{ textAlign: "justify" }}>
               
                 <ul>
-                  <li>Registration includes all meals and refreshment breaks for the duration of the conference</li>
-                  <li>To register for the Conference at the reduced Student Rate, you must have a valid student ID</li>
-                  <li>To register for the Conference as a PTCAI member, you must be a PTCAI member</li>
+                  <li>Registration includes all meals and refreshment breaks for the duration of the symposium</li>
+                  <li>To register for the Symposium at the reduced Student Rate, you must have a valid student ID</li>
+                  <li>To register for the Symposium as a PTCAI member, you must be a PTCAI member</li>
                   <li>Registration may close early if the number of participants exceeds our expected capacity.</li>
                 </ul>
               </p>
