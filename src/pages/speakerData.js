@@ -18,6 +18,11 @@ import sks from "../images/speakers/sks.jpg";
 import slsp from "../images/speakers/slsp.jpg";
 import ssb from "../images/speakers/ssb.jpg";
 import pd from "../images/speakers/pd.jpg";
+import tr from "../images/speakers/tr.jpg";
+import pkt from "../images/speakers/pkt.jpg";
+import nb from "../images/speakers/nb.jpg";
+import anilks from "../images/speakers/anilks.jpg";
+import op from "../images/speakers/op.jpg";
 
 function SpeakerLink({ link }) {
   return (
@@ -144,6 +149,19 @@ const invitedSpeakers = [
   ),
 
   new SpeakerHelper(
+    "Dr. Anil K. Singh",
+    anilks,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        ICAR-NIPB
+        <br />
+        New Delhi
+      </div>
+    ),
+    "https://nipb.icar.gov.in/node/1714"
+  ),
+
+  new SpeakerHelper(
     "Prof. Ashwani Pareek",
     ap,
     (
@@ -219,6 +237,45 @@ const invitedSpeakers = [
       </div>
     ),
   "https://du.irins.org/profile/43175"
+  ),
+
+  new SpeakerHelper(
+    "Dr. N. Barathi",
+    nb,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Growmore Biotech Ltd
+        <br />
+        Tamil Nadu
+      </div>
+    ),
+    "https://www.facebook.com/growmorebiotech/posts/dr-n-barathi-is-one-of-the-founders-and-directors-of-growmore-biotech-ltd-and-de/867690911823868/"
+  ),
+
+  new SpeakerHelper(
+    "Prof. Om Parkash Dhankher",
+    op,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        UMASS
+        <br />
+        Amherst
+      </div>
+    ),
+    "https://ag.umass.edu/people/om-parkash"
+  ),
+
+  new SpeakerHelper(
+    "Dr. P. K. Trivedi",
+    pkt,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        CSIR - CIMAP
+        <br />
+        Lucknow
+      </div>
+    ),
+    "https://nbri.res.in/molecular-scientists/dr-p-k-trivedi/"
   ),
  
   new SpeakerHelper(
@@ -349,6 +406,19 @@ const invitedSpeakers = [
       </div>
     ),
     "https://www.cimap.res.in/EmployeeProfile/EmployeeProfile.aspx?id=661"
+  ),
+
+  new SpeakerHelper(
+    "Dr. T. R. Sharma",
+    tr,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        ICAR
+        <br />
+        New Delhi
+      </div>
+    ),
+    "https://naas.org.in/detail.php?id=465"
   ),
  
   

@@ -54,7 +54,7 @@ function Accomodation() {
             <ul style={{textAlign: "left"}}>
                 <li>Hostel accommodation may be provided to Ph.D. students based on availability.</li>
                 <li>To and fro free shuttle service will be provided to the participants for the above hotels only.</li>
-                <li>* When booking the above hotels, please mention that you are participating in a conference hosted by BITS Pilani, Goa Campus to avail the contracted rates.</li>
+                <li>* When booking the above hotels, please mention that you are participating in a symposium hosted by BITS Pilani, Goa Campus to avail the contracted rates.</li>
                 <li>** Shared accomodation for Phd students / RA can be provided at minimal rates</li>
             </ul>
             <a class="black-button" href={hotelslink} target="_blank" rel="nopener noreferrer">CLICK HERE FOR MORE ACCOMODATION DETAILS NEARBY</a>
