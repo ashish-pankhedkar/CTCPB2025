@@ -283,9 +283,9 @@ const invitedSpeakers = [
     pd,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
-        IISc
+       BHU 
         <br />
-        Bangalore
+        Varanasi
       </div>
     ),
     "https://bhu.ac.in/Content/FacultyCV/pdwivedi25@rediffmail.com.pdf"
@@ -309,9 +309,9 @@ const invitedSpeakers = [
     pkv,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
-        School of Life Sciences
+        JNU
         <br />
-        JNU, New Delhi
+        New Delhi
       </div>
     ),
     "https://www.jnu.ac.in/content/praveenkverma"

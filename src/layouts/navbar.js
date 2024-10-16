@@ -3,7 +3,7 @@ import NavLogo from '../images/bits-logo.png';
 import { Link } from 'react-router-dom';
 import ctcpblogo from "../images/icons/ctcpb-logo.png"
 import ptcaiLogo from "../images/icons/ptcai.png"
-
+import sixtyYearLogo from "../images/icons/60 Official black.png"
 
 let NavWithDropDown = (props) => {
 	return (
@@ -50,9 +50,9 @@ function MyNavbar() {
 				<a class="navbar-brand my-2" href="/">
 					<img src={ptcaiLogo} height="90" class="align-top p-1" alt="ptcailogo" />
 				</a>
-				{/* <a class="navbar-brand my-2" href="/">
-					<img src={ptcaiLogo} height="90" class="align-top p-1" alt="ptcailogo" />
-				</a> */}
+				<a class="navbar-brand my-2" href="/">
+					<img src={sixtyYearLogo} height="90" class="align-top p-1" alt="ptcailogo" />
+				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
