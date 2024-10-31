@@ -1,14 +1,25 @@
 import React from 'react'
 import BTable from "react-bootstrap/Table";
-
+import dbtlogo from "../images/sponslogos/dbt.jpeg"
+import nabard from "../images/sponslogos/nabard.jpg"
 const spons_text = "Opportunities are available for companies to give advertisements in the abstract book of the symposium, which will contain messages from VIPs and articles from renowned scientists. Interested companies may contact the convener (e-mail) for giving the advertisement. "
 
 const sponsorship = () => {
   return (
     <div>
       <div className="container">
-        <div className="titleStyle1">Sponsorship</div>
-        <div className="titleStyle1">opportunities</div>
+        <div className="titleStyle1">Sponsors</div>
+        <div class="divider" style={{ marginBottom: "1px" }}></div>
+        {/* <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
+            <img src={dbtlogo} alt="" class="img-fluid" />
+            <img src={nabard} alt="" class="img-fluid" />
+        </div> */}
+        <div className="d-flex justify-content-between align-items-center">
+            <img src={dbtlogo} alt="" className="img-fluid" style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }} />
+            <img src={nabard} alt="" className="img-fluid" style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }} />
+        </div>
+        <div class="divider" style={{ marginBottom: "10px", opacity: "0%" }}></div>
+        <div className="titleStyle1">Sponsorship Opportunities</div>
         <div class="divider" style={{ marginBottom: "30px" }}></div>
               <p class="" style={{ fontWeight: "400", textAlign: "justify" }}>
                 {" "}
@@ -44,7 +55,6 @@ dias/website; Full page advertisement in the abstract book; Area for exhibition 
               <td style = {{textAlign: "justify"}}>Name/logo at prominent places including
 dias/website; Half page advertisement in the abstract book.</td>
             </tr>
-
 
             <tr>
               <td style = {{backgroundColor: "#e0e0e0", fontWeight: "bold"}}>Silver</td>

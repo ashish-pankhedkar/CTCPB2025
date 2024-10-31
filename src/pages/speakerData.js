@@ -23,6 +23,9 @@ import pkt from "../images/speakers/pkt.jpg";
 import nb from "../images/speakers/nb.jpg";
 import anilks from "../images/speakers/anilks.jpg";
 import op from "../images/speakers/op.jpg";
+import ashup from "../images/speakers/ashup.png";
+import tkm from "../images/speakers/tkm.png";
+import tk from "../images/speakers/tk.jpg";
 
 function SpeakerLink({ link }) {
   return (
@@ -159,6 +162,19 @@ const invitedSpeakers = [
       </div>
     ),
     "https://nipb.icar.gov.in/node/1714"
+  ),
+
+  new SpeakerHelper(
+    "Dr. Ashutosh Pandey",
+    ashup,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        NIPGR
+        <br />
+        Delhi
+      </div>
+    ),
+    "https://www.nipgr.ac.in/research/dr_ashutosh.php"
   ),
 
   new SpeakerHelper(
@@ -420,8 +436,32 @@ const invitedSpeakers = [
     ),
     "https://naas.org.in/detail.php?id=465"
   ),
- 
   
+  new SpeakerHelper(
+    "Dr. Tapan K. Mondal",
+    tkm,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        ICAR - NIPB
+        <br />
+        Delhi
+      </div>
+    ),
+    "https://naas.org.in/detail.php?id=866"
+  ),
+
+  new SpeakerHelper(
+    "Dr. Tarun Kant",
+    tk,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        ICFRE - Arid Forest Research Institute
+        <br />
+        Jodhpur
+      </div>
+    ),
+    "https://www.linkedin.com/in/dr-tarun-kant-9884719/?originalSubdomain=in"
+  ),
 ];
 
 
