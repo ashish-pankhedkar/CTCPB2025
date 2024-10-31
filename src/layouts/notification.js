@@ -17,7 +17,7 @@ const Notification = () => {
     <>
         <div class="alert alert-success d-flex" role="alert">
         <div class="alignleft"></div>
-        <div class="aligncenter"> Early Bird Registrations are from <strong>15<sup>th</sup>Sept 2024</strong> to <strong>15<sup>th</sup>Nov 2024</strong></div>
+        <div class="aligncenter"> Early Bird Registrations ends <strong>15<sup>th</sup>Nov 2024</strong></div>
         <div class="alignright"> <button style={Style} type="button" class="close" data-dismiss="alert">{""}{""}</button> </div>
         </div>
     </>

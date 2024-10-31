@@ -10,10 +10,6 @@ const sponsorship = () => {
       <div className="container">
         <div className="titleStyle1">Sponsors</div>
         <div class="divider" style={{ marginBottom: "1px" }}></div>
-        {/* <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
-            <img src={dbtlogo} alt="" class="img-fluid" />
-            <img src={nabard} alt="" class="img-fluid" />
-        </div> */}
         <div className="d-flex justify-content-between align-items-center">
             <img src={dbtlogo} alt="" className="img-fluid" style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }} />
             <img src={nabard} alt="" className="img-fluid" style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }} />
