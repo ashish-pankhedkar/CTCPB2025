@@ -26,6 +26,7 @@ import op from "../images/speakers/op.jpg";
 import ashup from "../images/speakers/ashup.png";
 import tkm from "../images/speakers/tkm.png";
 import tk from "../images/speakers/tk.jpg";
+import sc from "../images/speakers/sc.jpeg";
 
 function SpeakerLink({ link }) {
   return (
@@ -357,6 +358,19 @@ const invitedSpeakers = [
       </div>
     ),
     "https://www.icar-iirr.org/index.php/en/about-iirr/staff-iirr/iirr-scientists/crop-improvement/146-dr-satendra-kumar-mangrauthia-senior-scientist"
+  ),
+  
+  new SpeakerHelper(
+    "Dr. Sharmila Chattopadhyay",
+    sc,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        IICB
+        <br />
+        Kolkata
+      </div>
+    ),
+    "https://scholar.google.co.in/citations?user=R71lFCgAAAAJ&hl=en"
   ),
 
   new SpeakerHelper(
