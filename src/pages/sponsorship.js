@@ -2,6 +2,7 @@ import React from 'react'
 import BTable from "react-bootstrap/Table";
 import dbtlogo from "../images/sponslogos/dbt.jpeg"
 import nabard from "../images/sponslogos/nabard.png"
+import nrf from "../images/sponslogos/nrf.png"
 const spons_text = "Opportunities are available for companies to give advertisements in the abstract book of the symposium, which will contain messages from VIPs and articles from renowned scientists. Interested companies may contact the convener (e-mail) for giving the advertisement. "
 
 const sponsorship = () => {
@@ -11,8 +12,11 @@ const sponsorship = () => {
         <div className="titleStyle1">Sponsors</div>
         <div class="divider" style={{ marginBottom: "1px" }}></div>
         <div className="d-flex justify-content-between align-items-center">
-            <img src={dbtlogo} alt="" className="img-fluid" style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }} />
-            <img src={nabard} alt="" className="img-fluid" style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }} />
+          <img src={dbtlogo} alt="Department of Biotechnology, Govt. of India" className="img-fluid" style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }} />
+          <img src={nabard} alt="NABARD" className="img-fluid" style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }} />
+        </div>
+        <div className="d-flex justify-content-between align-items-center">
+          <img src={nrf} alt="National Research Foundation" className="img-fluid mx-auto" style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)"}} />
         </div>
         <div class="divider" style={{ marginBottom: "10px", opacity: "0%" }}></div>
         <div className="titleStyle1">Sponsorship Opportunities</div>
