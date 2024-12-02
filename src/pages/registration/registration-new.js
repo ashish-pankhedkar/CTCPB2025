@@ -84,7 +84,9 @@ function RegistrationNew() {
                         <br />
                         15<sup>th</sup> Nov 2024
                         <br />
-                        to 30<sup>th</sup> Nov 2024 
+                        to <s>30<sup>th</sup> Nov 2024 </s>
+                        <br />
+                        15<sup>th</sup> Dec 2024
                       </b>
                     </td>
                     

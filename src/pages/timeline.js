@@ -29,7 +29,7 @@ const eventList = [
   new timelineEvent("15th Sept 2024", "Early Bird Registration Starts"),
   new timelineEvent("15th Nov 2024", "Early Bird Registration Ends"),
   new timelineEvent("15th Nov 2024", "Normal Registration Starts"),
-  new timelineEvent("30th Nov 2024", "Abstract Submission Deadline and Normal Registration Ends"),
+  new timelineEvent("15th Dec 2024", "Abstract Submission Deadline and Normal Registration Ends"),
   new timelineEvent("31st Dec 2024", "Abstract Acceptance Notification"),
 ];
 
