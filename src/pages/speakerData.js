@@ -27,6 +27,9 @@ import ashup from "../images/speakers/ashup.png";
 import tkm from "../images/speakers/tkm.png";
 import tk from "../images/speakers/tk.jpg";
 import sc from "../images/speakers/sc.jpeg";
+import anis from "../images/speakers/as.jpg";
+import mm from "../images/speakers/mm.png";
+import sm from "../images/speakers/sm.jpg";
 
 function SpeakerLink({ link }) {
   return (
@@ -114,19 +117,6 @@ const invitedSpeakers = [
   ),
 
   new SpeakerHelper(
-    "Prof. Akhilesh K. Tyagi",
-    akt,
-    (
-      <div className="speakerText" style={{ marginTop: "25px" }}>
-        DU South Campus
-        <br />
-        New Delhi
-      </div>
-    ),
-    "https://www.dpmb.ac.in/index.php?page=AKT"
-  ),
-
-  new SpeakerHelper(
     "Dr. Alok K. Sinha",
     aks,
     (
@@ -163,6 +153,18 @@ const invitedSpeakers = [
       </div>
     ),
     "https://nipb.icar.gov.in/node/1714"
+  ),
+  new SpeakerHelper(
+    "Dr. Aniruddha Sane",
+    anis,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        NBRI
+        <br />
+        Lucknow
+      </div>
+    ),
+    "https://nbri.res.in/molecular-scientists/dr-aniruddha-p-sane/"
   ),
 
   new SpeakerHelper(
@@ -231,16 +233,16 @@ const invitedSpeakers = [
   ),
 
   new SpeakerHelper(
-    "Dr. Kutubuddin Ali Molla",
-    kam,
+    "Dr. Manoj Majee",
+    mm,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
-        ICAR-NRRI
+        NIPGR
         <br />
-        Cuttack
+        New Delhi
       </div>
     ),
-    "https://icar-nrri.in/wp-content/uploads/2020/03/Kutub_New.pdf"
+  "https://www.nipgr.ac.in/research/dr_mmajee_lab.php"
   ),
 
   new SpeakerHelper(
@@ -254,19 +256,6 @@ const invitedSpeakers = [
       </div>
     ),
   "https://du.irins.org/profile/43175"
-  ),
-
-  new SpeakerHelper(
-    "Dr. N. Barathi",
-    nb,
-    (
-      <div className="speakerText" style={{ marginTop: "25px" }}>
-        Growmore Biotech Ltd
-        <br />
-        Tamil Nadu
-      </div>
-    ),
-    "https://www.facebook.com/growmorebiotech/posts/dr-n-barathi-is-one-of-the-founders-and-directors-of-growmore-biotech-ltd-and-de/867690911823868/"
   ),
 
   new SpeakerHelper(
@@ -320,19 +309,6 @@ const invitedSpeakers = [
     ),
     "https://www.csmcri.res.in/node/340"
   ),
-
-  new SpeakerHelper(
-    "Dr. Praveen Kumar Verma",
-    pkv,
-    (
-      <div className="speakerText" style={{ marginTop: "25px" }}>
-        JNU
-        <br />
-        New Delhi
-      </div>
-    ),
-    "https://www.jnu.ac.in/content/praveenkverma"
-  ),
  
   new SpeakerHelper(
     "Prof. Rakhi Chaturvedi",
@@ -371,6 +347,18 @@ const invitedSpeakers = [
       </div>
     ),
     "https://scholar.google.co.in/citations?user=R71lFCgAAAAJ&hl=en"
+  ),
+  new SpeakerHelper(
+    "Prof. Sridev Mohapatra",
+    sm,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        BITS Pilani
+        <br />
+        Hyderabad
+      </div>
+    ),
+    "https://www.bits-pilani.ac.in/hyderabad/sridev-mohapatra/"
   ),
 
   new SpeakerHelper(
@@ -412,19 +400,6 @@ const invitedSpeakers = [
     "https://www.schandpublishing.com/author-details/s-sbhojwani"
   ),
  
-  new SpeakerHelper(
-    "Prof. Sudhir K. Sopory",
-    sks,
-    (
-      <div className="speakerText" style={{ marginTop: "25px" }}>
-        ICGEB
-        <br />
-        New Delhi
-      </div>
-    ),
-    "https://www.icgeb.org/sudhir-k-sopory/"
-  ),
-
   new SpeakerHelper(
     "Dr. Sumit Ghosh",
     sg,

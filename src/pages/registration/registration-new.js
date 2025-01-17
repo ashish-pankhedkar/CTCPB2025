@@ -61,6 +61,7 @@ function RegistrationNew() {
                     <th></th>
                     <th colspan="1">Early Bird Registration</th>
                     <th colspan="1">Regular Registration</th>
+                    <th colspan="1">Spot Registration</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -89,7 +90,11 @@ function RegistrationNew() {
                         15<sup>th</sup> Dec 2024
                       </b>
                     </td>
-                    
+                    <td align="center">
+                      <b>
+                        On 24th Feb 2024
+                      </b>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -97,6 +102,7 @@ function RegistrationNew() {
                     </td>
                     <td align="center">Rs. 3,000</td>
                     <td align="center">Rs. 4,000</td>
+                    <td align="center">Rs. 5,000</td>
                   </tr>
                   <tr>
                     <td>
@@ -104,6 +110,7 @@ function RegistrationNew() {
                     </td>
                     <td align="center">Rs. 6,000</td>
                     <td align="center">Rs. 7,000</td>
+                    <td align="center">Rs. 8,000</td>
                   </tr>
                   <tr>
                     <td>
@@ -112,6 +119,7 @@ function RegistrationNew() {
                     </td>
                     <td align="center">Rs. 5,000</td>
                     <td align="center">Rs. 6,000</td>
+                    <td align="center">Rs. 7,000</td>
                   </tr>
                   <tr>
                     <td>
@@ -119,6 +127,7 @@ function RegistrationNew() {
                     </td>
                     <td align="center">Rs. 10,000</td>
                     <td align="center">Rs. 15,000</td>
+                    <td align="center">N/A</td>
                   </tr>
                   <tr>
                     {/* <td colSpan="3">
