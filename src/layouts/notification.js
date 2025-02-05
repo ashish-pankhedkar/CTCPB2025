@@ -17,7 +17,7 @@ const Notification = () => {
     <>
         <div class="alert alert-success d-flex" role="alert">
         <div class="alignleft"></div>
-        <div class="aligncenter"> Registration has ended</div>
+        <div class="aligncenter"> Program Schedule is available now</div>
         <div class="alignright"> <button style={Style} type="button" class="close" data-dismiss="alert">{""}{""}</button> </div>
         </div>
     </>

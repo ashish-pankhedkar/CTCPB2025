@@ -73,22 +73,20 @@ function Home() {
                   Symposium on Current Trends and Challenges in Plant Biotechnology - 2025
                 </h1>
               </div>
-              <div class="d-flex-inline" style={{ textAlign: "start" }}>
-                {/* <a
-                  download
-                  href="documents/CTCPB_2025.pdf"
-                  class="black-button m-1"
-                >
-                  {" "}
-                  Schedule <i class="fa fa-download" aria-hidden="true"></i>
-                </a> */}
+              <div style={{ display: "flex", gap: "10px", textAlign: "start" }}>
                 <a
                   download
                   href="documents/CTCPB_2025.pdf"
                   class="black-button m-1"
                 >
-                  {" "}
                   Flyer <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+                <a
+                  download
+                  href="documents/Program_Schedule.pdf"
+                  class="black-button m-1"
+                >
+                  Program Schedule <i class="fa fa-download" aria-hidden="true"></i>
                 </a>
               </div>
               <div class="d-flex" style={{ textAlign: "start" }}>

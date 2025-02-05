@@ -1,6 +1,6 @@
 import React from 'react';
 import BTable from "react-bootstrap/Table";
-import dbtlogo from "../images/sponslogos/dbt.jpeg";
+import dbtlogo from "../images/sponslogos/dbt.png";
 import nabard from "../images/sponslogos/nabard.png";
 import nrf from "../images/sponslogos/anrf.png";
 import biogenuixLogo from "../images/sponslogos/biogenuix.jpeg"; 
