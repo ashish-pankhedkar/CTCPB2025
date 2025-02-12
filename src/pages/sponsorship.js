@@ -6,7 +6,8 @@ import nrf from "../images/sponslogos/anrf.png";
 import biogenuixLogo from "../images/sponslogos/biogenuix.jpeg"; 
 import himedia from "../images/sponslogos/himedia.png";
 import icar from "../images/sponslogos/icar.png";
-// import bpatelLogo from "../images/sponslogos/bpatel.png"; // Replace with the actual path
+import srl from "../images/sponslogos/srl.jpg";
+ import bpatelLogo from "../images/sponslogos/bps.png"; // Replace with the actual path
 
 const spons_text = "Opportunities are available for companies to give advertisements in the abstract book of the symposium, which will contain messages from VIPs and articles from renowned scientists. Interested companies may contact the convener (e-mail) for giving the advertisement.";
 
@@ -58,17 +59,23 @@ const Sponsorship = () => {
             className="img-fluid"
             style={{ flex: 1, maxWidth: "30%", transform: "scale(0.8)" }}
           />
-        {/* <img
+        <img
             src={bpatelLogo}
             alt="B.Patel and Sons"
             className="img-fluid"
             style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }}
-          />  */}
+          /> 
           <img
             src={himedia}
             alt="HiMedia"
             className="img-fluid"
-            style={{ flex: 1, maxWidth: "45%", transform: "scale(0.6)" }}
+            style={{ flex: 1, maxWidth: "45%", transform: "scale(0.8)" }}
+          /> 
+           <img
+            src={srl}
+            alt="SRL"
+            className="img-fluid"
+            style={{ flex: 1, maxWidth: "45%", transform: "scale(0.3)" }}
           /> 
         </div>
 
