@@ -127,7 +127,7 @@ function RegistrationNew() {
                     </td>
                     <td align="center">Rs. 10,000</td>
                     <td align="center">Rs. 15,000</td>
-                    <td align="center">N/A</td>
+                    <td align="center">Rs. 16,000</td>
                   </tr>
                   <tr>
                     {/* <td colSpan="3">
